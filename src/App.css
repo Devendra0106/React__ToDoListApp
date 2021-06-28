@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  margin: 3rem 12rem;
+}
+
+.task-header{
+  display: flex;
+  flex-direction: row;
+  margin: 5px auto;
+  padding: 5px auto;
+}
+
+.heading{
+  padding: 7px;
+  margin: 4px;
+  cursor: pointer;
+  border-bottom: 2px solid green;
+}
+
+.action{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.first-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.second-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.row-input{
+  display: flex;
+  flex-direction: column;
+}
